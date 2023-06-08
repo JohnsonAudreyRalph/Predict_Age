@@ -2,12 +2,13 @@ import cv2
 import numpy as np
 from keras.models import load_model
 
-model = load_model('Model/Ex_2.h5')
+# model = load_model('Model/Ex_2.h5')
+model = load_model('Model/Ex_3.h5')
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 Age = ['1-2', '3-9', '10-20', '21-27', '28-45', '46-65', '66-116']
 
 # Đường dẫn đến ảnh của bạn
-image_path = 'Image/1.jpg'
+image_path = 'Image/12.jpg'
 
 # Đọc ảnh
 image = cv2.imread(image_path)
@@ -24,7 +25,7 @@ for x, y, w, h in faces:
     cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
     print(Age[np.argmax(age)])
     cv2.putText(image, Age[np.argmax(age)], (x + 65, y + h + 35), cv2.FONT_HERSHEY_DUPLEX, 0.8,
-                (255, 255, 255), 2)
+                (255, 155, 25), 2)
 
 # Hiển thị ảnh kết quả
 cv2.imshow('Result', image)

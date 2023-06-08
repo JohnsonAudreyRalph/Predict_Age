@@ -2,7 +2,8 @@ import cv2
 import numpy as np
 from keras.models import load_model
 
-model = load_model('Model/Ex_2.h5')
+# model = load_model('Model/Ex_2.h5')
+model = load_model('Model/Ex_3.h5')
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 Age = ['1-2', '3-9', '10-20', '21-27', '28-45', '46-65', '66-116']
 cam = cv2.VideoCapture(0)
