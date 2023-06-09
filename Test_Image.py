@@ -3,12 +3,12 @@ import numpy as np
 from keras.models import load_model
 
 # model = load_model('Model/Ex_2.h5')
-model = load_model('Model/Ex_3.h5')
+model = load_model('Model/model.h5')
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
-Age = ['1-2', '3-9', '10-20', '21-27', '28-45', '46-65', '66-116']
+Age = ['1-2', '3-6', '7-12', '13-20', '21-40', '41-60', '61-80', '81-116']
 
 # Đường dẫn đến ảnh của bạn
-image_path = 'Image/12.jpg'
+image_path = 'Image/11.jpg'
 
 # Đọc ảnh
 image = cv2.imread(image_path)
