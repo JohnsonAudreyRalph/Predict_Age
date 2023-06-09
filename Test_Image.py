@@ -6,9 +6,10 @@ from keras.models import load_model
 model = load_model('Model/model.h5')
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 Age = ['1-2', '3-6', '7-12', '13-20', '21-40', '41-60', '61-80', '81-116']
+# Age = ['1-2', '3-9', '10-20', '21-27', '28-45', '46-65', '66-116']
 
 # Đường dẫn đến ảnh của bạn
-image_path = 'Image/11.jpg'
+image_path = 'Image/14.jpg'
 
 # Đọc ảnh
 image = cv2.imread(image_path)
@@ -24,8 +25,7 @@ for x, y, w, h in faces:
     age = model.predict(face)
     cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
     print(Age[np.argmax(age)])
-    cv2.putText(image, Age[np.argmax(age)], (x + 65, y + h + 35), cv2.FONT_HERSHEY_DUPLEX, 0.8,
-                (255, 155, 25), 2)
+    cv2.putText(image, Age[np.argmax(age)], (x + 65, y + h + 35), cv2.FONT_HERSHEY_DUPLEX, 0.8,(255, 155, 25), 2)
 
 # Hiển thị ảnh kết quả
 cv2.imshow('Result', image)
