@@ -25,20 +25,20 @@
                                      ![Ảnh thông tin dũ liệu](https://i.imgur.com/fGBNjWt.png)
 * Thực hiện chia khoảng độ tuổi
 
-                                               ![Ảnh dữ liệu](https://i.imgur.com/WlAYJeA.png)
+                                     ![Ảnh dữ liệu](https://i.imgur.com/WlAYJeA.png)
 * Thực hiện huấn luyện mô hình
 
-                                                        ![Kiến trúc mô hình](https://i.imgur.com/qh5yqhN.png)
+                                    ![Kiến trúc mô hình](https://i.imgur.com/qh5yqhN.png)
 * Kết quả huấn luyện mô hình
 
-                                               ![Kết quả huấn luyện mô hình](https://i.imgur.com/vR3ggoB.png)
+                                    ![Kết quả huấn luyện mô hình](https://i.imgur.com/vR3ggoB.png)
 ### Thực hiện kiểm thử và xây dựng chương trình phần mềm
 * Chương trình kiểm thử dữ liệu dưới dạng ảnh
 
-                                                   ![Kiểm thử dữ liệu ảnh](https://i.imgur.com/Iv117oY.png)
+                                 ![Kiểm thử dữ liệu ảnh](https://i.imgur.com/Iv117oY.png)
 * Chương trình kiểm thử dữ liệu dưới lấy trực tiếp từ Camera
 
-                                         ![Kiểm thử dữ liệu lấy từ Camera](https://i.imgur.com/YmfnM2E.png)
+                              ![Kiểm thử dữ liệu lấy từ Camera](https://i.imgur.com/YmfnM2E.png)
 * Xây dựng phần mềm
 
-                                                        ![Xây dựng phần mềm](https://i.imgur.com/Gw2p8N8.png)
+![Xây dựng phần mềm](https://i.imgur.com/Gw2p8N8.png)
