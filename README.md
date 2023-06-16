@@ -16,13 +16,13 @@
 * Dữ liệu được lấy từ bộ dữ liệu trên UTK Faces: [Tải bộ dữ liệu](https://susanqq.github.io/UTKFace/)
 * Dữ liệu bao gồm có 32,683 bức ảnh với độ tuổi, giới tính, dân tộc khác nhau
 
-                                               ![Ảnh dữ liệu](https://i.imgur.com/X1H0EEQ.png)
+                                   ![Ảnh dữ liệu](https://i.imgur.com/X1H0EEQ.png)
 * Dữ liệu bao gồm các độ tuổi từ 1 -> 100 tuổi
 
-                                               ![Ảnh dữ liệu](https://i.imgur.com/iMK8GNp.png)
+                                    ![Ảnh dữ liệu](https://i.imgur.com/iMK8GNp.png)
 * Sau khi đã loại bỏ những thông tin không cần thiết trong quá trình huấn luyện, kết quả đã thu được dữ liệu chuẩn bị huấn luyện như sau:
 
-                                                     ![Ảnh thông tin dũ liệu](https://i.imgur.com/fGBNjWt.png)
+                                     ![Ảnh thông tin dũ liệu](https://i.imgur.com/fGBNjWt.png)
 * Thực hiện chia khoảng độ tuổi
 
                                                ![Ảnh dữ liệu](https://i.imgur.com/WlAYJeA.png)
